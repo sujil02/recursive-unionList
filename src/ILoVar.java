@@ -1,7 +1,8 @@
 // a list of variables
-interface ILoVar extends GenericListADTNode<BSLVariable>{
+interface ILoVar extends GenericListADTNode<BSLVariable> {
   ILoVar add(BSLVariable a);
-  BSLVariable  get(int index) throws IllegalArgumentException;
+
+  BSLVariable get(int index) throws IllegalArgumentException;
 }
 
 // an empty list of variables
@@ -21,8 +22,8 @@ class MtLoVar implements ILoVar {
 
 // a non-empty list of variables
 class ConsLoVar implements ILoVar {
-  BSLVariable first;
-  ILoVar rest;
+  private BSLVariable first;
+  private ILoVar rest;
 
   ConsLoVar(BSLVariable first, ILoVar rest) {
     this.first = first;

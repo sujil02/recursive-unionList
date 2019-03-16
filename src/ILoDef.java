@@ -5,6 +5,7 @@ public interface ILoDef {
 
   Set<String> addDefinedFunctionNames(Set<String> hash_set);
 }
+
 // an empty list of expressions
 class MtLoDef implements ILoDef {
 
@@ -17,13 +18,12 @@ class MtLoDef implements ILoDef {
   public Set<String> addDefinedFunctionNames(Set<String> hash_set) {
     return null;
   }
-
 }
 
 // a non-empty list of definitions.
 class ConsLoDef implements ILoDef {
-  BSLDefinition first;
-  ILoDef rest;
+  private BSLDefinition first;
+  private ILoDef rest;
 
   ConsLoDef(BSLDefinition first, ILoDef rest) {
     this.first = first;

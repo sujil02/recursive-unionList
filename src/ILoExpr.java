@@ -3,7 +3,7 @@ import java.util.Set;
 public interface ILoExpr extends GenericListADTNode<BSLExpr> {
   ILoExpr add(BSLExpr a);
 
-  public boolean check(Set<String> definedFunctions);
+  boolean check(Set<String> definedFunctions);
 }
 
 // an empty list of expressions
@@ -22,8 +22,8 @@ class MtLoExpr implements ILoExpr {
 
 // a non-empty list of expressions
 class ConsLoExpr implements ILoExpr {
-  BSLExpr first;
-  ILoExpr rest;
+  private BSLExpr first;
+  private ILoExpr rest;
 
   ConsLoExpr(BSLExpr first, ILoExpr rest) {
     this.first = first;
