@@ -19,6 +19,7 @@ public class ExamplesBSL {
     bslDefinitions.add(bslFuncTru);
     bslDefinitions.add(bslFuncFals);
     bslDefinitions.add(bslDefinitionstruct);
+    ILoDef bslDefs = new ConsLoDef(bslDefinitionZero, new MtLoDef()).add(bslFuncTru).add(bslFuncFals).add(bslDefinitionstruct);
     ILoExpr iLoExpr = new ConsLoExpr(new BSLInt(2), new MtLoExpr()).add(new BSLString("b"));
     BSLApplication bslApplicationTru = new BSLApplication("tru", iLoExpr);
     ILoExpr iLoExprMakePosn = new ConsLoExpr(new BSLString("x"), new MtLoExpr()).add(new BSLString("y"));
@@ -28,11 +29,17 @@ public class ExamplesBSL {
     ILoExpr iLoExprfals = new ConsLoExpr(bslApplicationPosnx, new MtLoExpr());
     BSLApplication bslApplicationfals = new BSLApplication("fals", iLoExprfals);
     ILoExpr bslExprs = new ConsLoExpr(bslApplicationTru, new MtLoExpr()).add(bslApplicationfals);
-    return new Program(bslDefinitions, bslExprs);
+    return new Program(bslDefs, bslExprs);
   }
 
+  /**
+   * TODO: 5. Run real tests here.
+   *
+   * @param t Object of tester class
+   * @return response if the test is passed or not.
+   */
   boolean testAllFunctionsDefined(Tester t) {
-    // TODO: 5. Run real tests here.
+
     ExamplesBSL examplesJSON = new ExamplesBSL();
     Program myProgram = examplesJSON.helperToCreateExamplesBSL();
     return t.checkExpect(myProgram.allFunctionsDefined(), true);

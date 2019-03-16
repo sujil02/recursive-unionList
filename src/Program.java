@@ -1,14 +1,13 @@
-import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Set;
 
 //TODO 3: Create the class Program, which has a list of definitions and a list of expressions
 public class Program {
-  ArrayList<BSLDefinition> bslDefinitions;
+  ILoDef bslDefs;
   ILoExpr bslExprs;
 
-  public Program(ArrayList<BSLDefinition> bslDefinitions, ILoExpr bslExprs) {
-    this.bslDefinitions = bslDefinitions;
+  public Program(ILoDef bslDefs, ILoExpr bslExprs) {
+    this.bslDefs = bslDefs;
     this.bslExprs = bslExprs;
   }
 
@@ -23,9 +22,6 @@ public class Program {
 
   private Set<String> computeDefinedFunctions() {
     Set<String> hash_Set = new HashSet<>();
-    for (BSLDefinition a : bslDefinitions) {
-      hash_Set.addAll(a.getDefinedFunctionNames());
-    }
-    return hash_Set;
+    return bslDefs.addDefinedFunctionNames(hash_Set);
   }
 }

@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b006ffa-0d0e-445c-bbe7-e4609cd9b301" name="Default Changelist" comment="" />
+    <list default="true" id="7b006ffa-0d0e-445c-bbe7-e4609cd9b301" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS2510-A/ExamplesBSL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS2510-A/ExamplesBSL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/CS2510-A/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS2510-A/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BSLApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BSLApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BSLExpr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BSLExpr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BSLFunc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BSLFunc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamplesBSL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamplesBSL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GenericListADTNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericListADTNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ILoDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ILoDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,28 +26,108 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ILoExpr.java">
+        <entry file="file://$PROJECT_DIR$/src/BSLExpr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+            <state relative-caret-position="105">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ILoVar.java">
+        <entry file="file://$PROJECT_DIR$/src/ILoExpr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            <state relative-caret-position="-228">
+              <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GenericListADTNode.java">
+        <entry file="file://$PROJECT_DIR$/src/Program.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="-194">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/ExamplesTesting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ILoDef.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+              <folding>
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BSLDefinition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="10">
+              <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BSLFunc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ExamplesBSL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/ExamplesBSLTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/BSLApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="23" />
+              <folding>
+                <element signature="e#338#339#0" expanded="true" />
+                <element signature="e#366#367#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,28 +138,31 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/BSLFunction.java" />
-        <option value="$PROJECT_DIR$/src/ILoDef.java" />
         <option value="$PROJECT_DIR$/src/bkp/ILoDef.java" />
         <option value="$PROJECT_DIR$/test/ExamplesTesting.java" />
         <option value="$PROJECT_DIR$/test/ExamplesBSLTest.java" />
-        <option value="$PROJECT_DIR$/src/BSLFunc.java" />
         <option value="$PROJECT_DIR$/src/BSLDefinition.java" />
-        <option value="$PROJECT_DIR$/src/BSLExpr.java" />
-        <option value="$PROJECT_DIR$/src/BSLApplication.java" />
-        <option value="$PROJECT_DIR$/src/Program.java" />
+        <option value="$PROJECT_DIR$/src/BSLFunc.java" />
         <option value="$PROJECT_DIR$/src/ExamplesBSL.java" />
         <option value="$PROJECT_DIR$/src/ILoExpr.java" />
-        <option value="$PROJECT_DIR$/src/GenericListADTNode.java" />
         <option value="$PROJECT_DIR$/src/ILoVar.java" />
+        <option value="$PROJECT_DIR$/src/GenericListADTNode.java" />
+        <option value="$PROJECT_DIR$/src/Program.java" />
+        <option value="$PROJECT_DIR$/src/ILoDef.java" />
+        <option value="$PROJECT_DIR$/src/BSLApplication.java" />
+        <option value="$PROJECT_DIR$/src/BSLExpr.java" />
       </list>
     </option>
   </component>
@@ -78,6 +172,7 @@
     <option name="width" value="1382" />
     <option name="height" value="784" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -120,6 +215,12 @@
               <item name="CS2510-A" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="CS2510-A" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="BSLApplication.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="CS2510-A" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CS2510-A" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="BSLDefinition.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
@@ -133,6 +234,12 @@
               <item name="CS2510-A" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="BSLFunc.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="CS2510-A" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="CS2510-A" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="ILoDef.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="CS2510-A" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -164,7 +271,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552726009421" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552729494281" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lecture7" />
@@ -198,7 +305,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExamplesBSL">
+  <component name="RunManager" selected="JUnit.ExamplesBSLTest.test">
     <configuration name="ExamplesBSL" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="tester.Main" />
       <module name="CS2510-A" />
@@ -245,29 +352,11 @@
       <option name="presentableId" value="Default" />
       <updated>1552602842469</updated>
       <workItem from="1552602848389" duration="7652000" />
-      <workItem from="1552666234783" duration="29724000" />
+      <workItem from="1552666234783" duration="33113000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ExamplesBSLTest_test - 2019.03.16 at 03h 21m 54s.xml">
-      <configuration name="ExamplesBSLTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExamplesBSLTest_test - 2019.03.16 at 03h 24m 40s.xml">
-      <configuration name="ExamplesBSLTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExamplesBSLTest_test - 2019.03.16 at 03h 28m 14s.xml">
-      <configuration name="ExamplesBSLTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExamplesBSLTest_test - 2019.03.16 at 03h 29m 41s.xml">
-      <configuration name="ExamplesBSLTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExamplesBSLTest_test - 2019.03.16 at 03h 41m 19s.xml">
-      <configuration name="ExamplesBSLTest.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ExamplesBSLTest_test - 2019.03.16 at 03h 56m 44s.xml">
-      <configuration name="ExamplesBSLTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ExamplesBSLTest_test - 2019.03.16 at 03h 59m 47s.xml">
       <configuration name="ExamplesBSLTest.test" configurationId="JUnit" />
     </history-entry>
@@ -280,9 +369,27 @@
     <history-entry file="ExamplesBSLTest_test - 2019.03.16 at 04h 26m 30s.xml">
       <configuration name="ExamplesBSLTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ExamplesBSLTest_test - 2019.03.16 at 05h 22m 20s.xml">
+      <configuration name="ExamplesBSLTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExamplesBSLTest_test - 2019.03.16 at 05h 23m 09s.xml">
+      <configuration name="ExamplesBSLTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExamplesBSLTest_test - 2019.03.16 at 05h 29m 43s.xml">
+      <configuration name="ExamplesBSLTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExamplesBSLTest_test - 2019.03.16 at 05h 31m 07s.xml">
+      <configuration name="ExamplesBSLTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExamplesBSLTest_test - 2019.03.16 at 05h 32m 18s.xml">
+      <configuration name="ExamplesBSLTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExamplesBSLTest_test - 2019.03.16 at 05h 32m 56s.xml">
+      <configuration name="ExamplesBSLTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37376000" />
+    <option name="totallyTimeSpent" value="40765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -298,8 +405,8 @@
       <window_info anchor="bottom" id="Messages" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -326,34 +433,22 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/test/ExamplesBSLTest.java</url>
-          <line>8</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Program.java</url>
-          <line>28</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ExamplesBSL.java</url>
-          <line>30</line>
+          <line>31</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Program.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ExamplesBSL.java</url>
-          <line>36</line>
+          <line>43</line>
           <properties />
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ILoDef.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -368,16 +463,38 @@
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ILoDef.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Set.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="23" column="21" lean-forward="true" selection-end-line="35" selection-end-column="1" />
-          <folding>
-            <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#664#665#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="113">
+          <caret line="224" column="12" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="202" selection-start-line="202" selection-end-line="202" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ILoVar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="16" lean-forward="true" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GenericListADTNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -388,43 +505,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/util/Set.java">
+    <entry file="file://$PROJECT_DIR$/src/ExamplesBSL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="224" column="12" selection-start-line="224" selection-start-column="12" selection-end-line="224" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BSLDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="105">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
           <folding>
-            <element signature="e#464#472#0" expanded="true" />
-            <element signature="e#916#924#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/BSLExpr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
-          <folding>
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#705#706#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/ExamplesBSLTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="63" />
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ILoDef.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -432,58 +539,49 @@
     <entry file="file://$PROJECT_DIR$/src/BSLFunc.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/BSLApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/BSLDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#366#367#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="10">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="93" selection-start-line="4" selection-start-column="93" selection-end-line="4" selection-end-column="93" />
+        <state relative-caret-position="-194">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExamplesBSL.java">
+    <entry file="file://$PROJECT_DIR$/src/BSLApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        <state relative-caret-position="51">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#338#339#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BSLExpr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ILoExpr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GenericListADTNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ILoVar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        <state relative-caret-position="-228">
+          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
         </state>
       </provider>
     </entry>

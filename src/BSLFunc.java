@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-//TODO 1: Create BSLFunction class
+//TODO 1: Create BSLFunction class.
 public interface BSLFunc extends BSLDefinition {
 }
 

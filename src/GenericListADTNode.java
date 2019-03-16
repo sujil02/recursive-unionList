@@ -5,7 +5,6 @@
  */
 public interface GenericListADTNode<T> {
 
-
   GenericListADTNode<T> add(T a);
 
 }
