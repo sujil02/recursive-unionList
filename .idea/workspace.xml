@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7b006ffa-0d0e-445c-bbe7-e4609cd9b301" name="Default Changelist" comment="Rearranging test cases.">
+    <list default="true" id="7b006ffa-0d0e-445c-bbe7-e4609cd9b301" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS2510-A/ExamplesBSL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS2510-A/ExamplesBSL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CS2510-A/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/CS2510-A/Program.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/CS2510-A/ExamplesBSLTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/CS2510-A/ExamplesBSLTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExamplesBSL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamplesBSL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GenericListADTNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GenericListADTNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ILoDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ILoDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ILoExpr.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ILoExpr.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ILoVar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ILoVar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ExamplesBSLTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ExamplesTesting.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ILoExpr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+            <state relative-caret-position="223">
+              <caret line="43" column="3" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -269,7 +259,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552730947435" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552731226350" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lecture7" />
@@ -350,8 +340,16 @@
       <option name="presentableId" value="Default" />
       <updated>1552602842469</updated>
       <workItem from="1552602848389" duration="7652000" />
-      <workItem from="1552666234783" duration="34644000" />
+      <workItem from="1552666234783" duration="34776000" />
     </task>
+    <task id="LOCAL-00001" summary="Fixing access specifiers. And Rearranging test cases.">
+      <created>1552730991855</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1552730991855</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -387,20 +385,20 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42296000" />
+    <option name="totallyTimeSpent" value="42428000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" visible="true" weight="0.3289689" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
@@ -455,7 +453,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Rearranging test cases." />
-    <option name="LAST_COMMIT_MESSAGE" value="Rearranging test cases." />
+    <MESSAGE value="Fixing access specifiers. And Rearranging test cases." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixing access specifiers. And Rearranging test cases." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -619,8 +618,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ILoExpr.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="25" column="10" selection-start-line="25" selection-start-column="10" selection-end-line="25" selection-end-column="10" />
+        <state relative-caret-position="223">
+          <caret line="43" column="3" selection-start-line="43" selection-start-column="3" selection-end-line="43" selection-end-column="3" />
         </state>
       </provider>
     </entry>

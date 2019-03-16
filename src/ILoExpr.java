@@ -42,5 +42,4 @@ class ConsLoExpr implements ILoExpr {
     }
     return rest.check(definedFunctions);
   }
-
 }

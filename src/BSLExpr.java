@@ -1,5 +1,3 @@
-// The following is code to represent an approximation of a subsection of Beginning Student Language
-// https://docs.racket-lang.org/htdp-langs/beginner.html
 
 // an expression in BSL
 interface BSLExpr {
