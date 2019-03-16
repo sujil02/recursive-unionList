@@ -2,12 +2,12 @@ import java.util.Set;
 
 // an expression in BSL
 interface BSLExpr {
-  boolean getFuncName(Set<String> definedFunctions);
+  boolean isFunctionNameInDefinedFunctions(Set<String> definedFunctions);
 }
 
 abstract class BSLExpression implements BSLExpr {
   @Override
-  public boolean getFuncName(Set<String> definedFunctions) {
+  public boolean isFunctionNameInDefinedFunctions(Set<String> definedFunctions) {
     return true;
   }
 }

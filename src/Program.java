@@ -1,7 +1,9 @@
 import java.util.HashSet;
 import java.util.Set;
 
-//TODO 3: Create the class Program, which has a list of definitions and a list of expressions
+/**
+ * TODO 3: Create the class Program, which has a list of definitions and a list of expressions.
+ */
 class Program {
   private ILoDef bslDefs;
   private ILoExpr bslExprs;

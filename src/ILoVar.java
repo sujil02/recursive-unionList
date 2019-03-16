@@ -1,6 +1,12 @@
 // a list of variables
 interface ILoVar extends ListADT<BSLVariable> {
-
+  /**
+   * Get the (index)th object in this list
+   *
+   * @param index the index of the object to be returned
+   * @return the object at the given index
+   * @throws IllegalArgumentException if an invalid index is passed
+   */
   BSLVariable get(int index) throws IllegalArgumentException;
 }
 

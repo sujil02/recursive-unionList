@@ -1,8 +1,15 @@
 import java.util.Set;
 
-public interface ILoDef  extends ListADT<BSLDefinition>{
+public interface ILoDef extends ListADT<BSLDefinition> {
   ILoDef add(BSLDefinition a);
 
+  /**
+   * This method add defined function names to the set which is then use to validate the
+   * expression.
+   *
+   * @param hash_set defined function name present in the code so far.
+   * @return updated hash_set.
+   */
   Set<String> addDefinedFunctionNames(Set<String> hash_set);
 }
 

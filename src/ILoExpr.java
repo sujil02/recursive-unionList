@@ -35,8 +35,7 @@ class ConsLoExpr implements ILoExpr {
 
   @Override
   public boolean check(Set<String> definedFunctions) {
-    boolean result = true;
-    return result && first.getFuncName(definedFunctions) && this.rest.check(definedFunctions);
+    return  first.isFunctionNameInDefinedFunctions(definedFunctions) && this.rest.check(definedFunctions);
   }
 
 }

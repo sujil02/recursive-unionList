@@ -3,6 +3,11 @@ import java.util.ArrayList;
 // a definition in BSL
 interface BSLDefinition {
 
+  /**
+   * Returns all possible defined function name for this type of definition.
+   *
+   * @return List of all possible approved function name.
+   */
   ArrayList<String> getDefinedFunctionNames();
 }
 
@@ -19,7 +24,7 @@ class BSLConstant implements BSLDefinition {
 
   @Override
   public ArrayList<String> getDefinedFunctionNames() {
-    ArrayList<String> definedFunctionNames = new ArrayList<String>();
+    ArrayList<String> definedFunctionNames = new ArrayList<>();
     definedFunctionNames.add(name.variable);
     return definedFunctionNames;
   }
@@ -35,6 +40,12 @@ class BSLStruct implements BSLDefinition {
     this.fields = fields;
   }
 
+  /**
+   * Adds make-structname, structname?, or structname-structfield, where structname is the name of a
+   * struct, and structfield is a field of that struct.
+   *
+   * @return List of all possible defined names.
+   */
   @Override
   public ArrayList<String> getDefinedFunctionNames() {
     ArrayList<String> definedFunctionNames = new ArrayList<String>();
