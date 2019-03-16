@@ -1,6 +1,6 @@
 import java.util.Set;
 
-public interface ILoDef {
+public interface ILoDef  extends ListADT<BSLDefinition>{
   ILoDef add(BSLDefinition a);
 
   Set<String> addDefinedFunctionNames(Set<String> hash_set);

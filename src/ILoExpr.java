@@ -1,8 +1,6 @@
 import java.util.Set;
 
-public interface ILoExpr extends GenericListADTNode<BSLExpr> {
-  ILoExpr add(BSLExpr a);
-
+public interface ILoExpr extends ListADT<BSLExpr> {
   boolean check(Set<String> definedFunctions);
 }
 
@@ -42,4 +40,5 @@ class ConsLoExpr implements ILoExpr {
     }
     return rest.check(definedFunctions);
   }
+
 }

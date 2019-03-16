@@ -1,6 +1,5 @@
 // a list of variables
-interface ILoVar extends GenericListADTNode<BSLVariable> {
-  ILoVar add(BSLVariable a);
+interface ILoVar extends ListADT<BSLVariable> {
 
   BSLVariable get(int index) throws IllegalArgumentException;
 }

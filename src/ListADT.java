@@ -2,9 +2,8 @@
  * This generic interface represents all the operations to be supported by a list of objects of type
  * T.
  */
-public interface GenericListADTNode<T> {
+public interface ListADT<T> {
 
-
-  GenericListADTNode<T> add(T a);
+  <R extends ListADT> R add(T a);
 
 }

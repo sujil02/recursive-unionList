@@ -1,4 +1,3 @@
-
 //TODO 2: Create the BSLApplication class, which is a function application.
 class BSLApplication extends BSLExpression {
   String bslFuncName;

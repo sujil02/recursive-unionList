@@ -44,7 +44,7 @@ class ExamplesBSL {
     bslDefinitions.add(bslFuncTru);
     bslDefinitions.add(bslFuncFals);
     bslDefinitions.add(bslDefinitionstruct);
-    ILoDef bslDefs = new ConsLoDef(bslDefinitionZero, new MtLoDef()).add(bslFuncTru).add(bslFuncFals).add(bslDefinitionstruct);
+    ILoDef bslDefs =  new ConsLoDef(bslDefinitionZero, new MtLoDef()).add(bslFuncTru).add(bslFuncFals).add(bslDefinitionstruct);
     ILoExpr iLoExpr = new ConsLoExpr(new BSLInt(2), new MtLoExpr()).add(new BSLString("b"));
     BSLApplication bslApplicationTru = new BSLApplication("Hello", iLoExpr);
     ILoExpr iLoExprMakePosn = new ConsLoExpr(new BSLString("x"), new MtLoExpr()).add(new BSLString("y"));

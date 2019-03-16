@@ -1,4 +1,3 @@
-
 // an expression in BSL
 interface BSLExpr {
   String getFuncName();
