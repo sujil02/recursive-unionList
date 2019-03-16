@@ -1,3 +1,5 @@
+import java.util.Set;
+
 //TODO 2: Create the BSLApplication class, which is a function application.
 class BSLApplication extends BSLExpression {
   String bslFuncName;
@@ -9,7 +11,9 @@ class BSLApplication extends BSLExpression {
   }
 
   @Override
-  public String getFuncName() {
-    return bslFuncName;
+  public boolean getFuncName(Set<String> definedFunctions) {
+    if (!definedFunctions.contains(bslFuncName))
+      return false;
+    return iLoExpr.check(definedFunctions);
   }
 }

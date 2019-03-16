@@ -1,12 +1,14 @@
+import java.util.Set;
+
 // an expression in BSL
 interface BSLExpr {
-  String getFuncName();
+  boolean getFuncName(Set<String> definedFunctions);
 }
 
 abstract class BSLExpression implements BSLExpr {
   @Override
-  public String getFuncName() {
-    return null;
+  public boolean getFuncName(Set<String> definedFunctions) {
+    return true;
   }
 }
 

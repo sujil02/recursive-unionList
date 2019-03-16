@@ -7,7 +7,7 @@ import tester.Tester;
  */
 class ExamplesBSL {
 
-  private Program helperToCreateExamplesBSL() {
+  Program helperToCreateExamplesBSL() {
     ArrayList<BSLDefinition> bslDefinitions = new ArrayList<>();
     BSLDefinition bslDefinitionZero = new BSLConstant(new BSLVariable("Zero"), new BSLInt(0));
     ILoVar iLoVar = new ConsLoVar(new BSLVariable("a"), new MtLoVar()).add(new BSLVariable("b"));
@@ -32,7 +32,7 @@ class ExamplesBSL {
     return new Program(bslDefs, bslExprs);
   }
 
-  private Program helperToCreateExamplesBSL2() {
+  Program helperToCreateExamplesBSL2() {
     ArrayList<BSLDefinition> bslDefinitions = new ArrayList<>();
     BSLDefinition bslDefinitionZero = new BSLConstant(new BSLVariable("Zero"), new BSLInt(0));
     ILoVar iLoVar = new ConsLoVar(new BSLVariable("a"), new MtLoVar()).add(new BSLVariable("b"));
@@ -46,11 +46,11 @@ class ExamplesBSL {
     bslDefinitions.add(bslDefinitionstruct);
     ILoDef bslDefs =  new ConsLoDef(bslDefinitionZero, new MtLoDef()).add(bslFuncTru).add(bslFuncFals).add(bslDefinitionstruct);
     ILoExpr iLoExpr = new ConsLoExpr(new BSLInt(2), new MtLoExpr()).add(new BSLString("b"));
-    BSLApplication bslApplicationTru = new BSLApplication("Hello", iLoExpr);
+    BSLApplication bslApplicationTru = new BSLApplication("tru", iLoExpr);
     ILoExpr iLoExprMakePosn = new ConsLoExpr(new BSLString("x"), new MtLoExpr()).add(new BSLString("y"));
-    BSLApplication bslApplicationMakePosn = new BSLApplication("make-posn", iLoExprMakePosn);
+    BSLApplication bslApplicationMakePosn = new BSLApplication("make-posn-xy", iLoExprMakePosn);
     ILoExpr iLoExprPosnx = new ConsLoExpr(bslApplicationMakePosn, new MtLoExpr());
-    BSLApplication bslApplicationPosnx = new BSLApplication("posn-x", iLoExprPosnx);
+    BSLApplication bslApplicationPosnx = new BSLApplication("posn-xy", iLoExprPosnx);
     ILoExpr iLoExprfals = new ConsLoExpr(bslApplicationPosnx, new MtLoExpr());
     BSLApplication bslApplicationfals = new BSLApplication("fals", iLoExprfals);
     ILoExpr bslExprs = new ConsLoExpr(bslApplicationTru, new MtLoExpr()).add(bslApplicationfals);
