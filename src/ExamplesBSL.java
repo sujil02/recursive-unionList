@@ -11,14 +11,21 @@ class ExamplesBSL {
    * @return an object of type problem havin a list of definitions and a list of expressions.
    */
   private Program helperToCreateExamplesBSL() {
+    return new Program(definitionMainHelper(), expressionMainHelper());
+  }
+
+  private ILoDef definitionMainHelper() {
     BSLDefinition bslDefinitionZero = new BSLConstant(new BSLVariable("Zero"), new BSLInt(0));
     ILoVar iLoVar = new ConsLoVar(new BSLVariable("a"), new MtLoVar()).add(new BSLVariable("b"));
     BSLFunc bslFuncTru = new BSLFunction(new BSLVariable("tru"), iLoVar, new BSLString("a"));
     BSLFunc bslFuncFals = new BSLFunction(new BSLVariable("fals"), iLoVar, new BSLString("b"));
     ILoVar iLoVar2 = new ConsLoVar(new BSLVariable("x"), new MtLoVar()).add(new BSLVariable("y"));
     BSLDefinition bslDefinitionstruct = new BSLStruct(new BSLVariable("posn"), iLoVar2);
-    ILoDef bslDefs = new ConsLoDef(bslDefinitionZero, new MtLoDef()).add(bslFuncTru)
+    return new ConsLoDef(bslDefinitionZero, new MtLoDef()).add(bslFuncTru)
             .add(bslFuncFals).add(bslDefinitionstruct);
+  }
+
+  private ILoExpr expressionMainHelper() {
     ILoExpr iLoExpr = new ConsLoExpr(new BSLInt(2), new MtLoExpr()).add(new BSLString("b"));
     BSLApplication bslApplicationTru = new BSLApplication("tru", iLoExpr);
     ILoExpr iLoExprMakePosn = new ConsLoExpr(new BSLString("x"), new MtLoExpr()).add(new BSLString("y"));
@@ -27,55 +34,42 @@ class ExamplesBSL {
     BSLApplication bslApplicationPosnx = new BSLApplication("posn-x", iLoExprPosnx);
     ILoExpr iLoExprfals = new ConsLoExpr(bslApplicationPosnx, new MtLoExpr());
     BSLApplication bslApplicationfals = new BSLApplication("fals", iLoExprfals);
-    ILoExpr bslExprs = new ConsLoExpr(bslApplicationTru, new MtLoExpr()).add(bslApplicationfals);
-    return new Program(bslDefs, bslExprs);
+    return new ConsLoExpr(bslApplicationTru, new MtLoExpr()).add(bslApplicationfals);
   }
 
   /**
-   * Extra helper method to create extra program type variables having extra BSLStruct
-   * variable.
+   * Extra helper method to create extra program type variables having extra BSLConstant variable.
    *
    * @return an object of type problem havin a list of definitions and a list of expressions.
    */
   private Program helperToCreateExamplesBSL2() {
-    BSLDefinition bslDefinitionZero = new BSLConstant(new BSLVariable("Zero"), new BSLInt(0));
-    ILoVar iLoVar = new ConsLoVar(new BSLVariable("a"), new MtLoVar()).add(new BSLVariable("b"));
-    BSLFunc bslFuncTru = new BSLFunction(new BSLVariable("tru"), iLoVar, new BSLString("a"));
-    BSLFunc bslFuncFals = new BSLFunction(new BSLVariable("fals"), iLoVar, new BSLString("b"));
-    ILoVar iLoVar2 = new ConsLoVar(new BSLVariable("x"), new MtLoVar()).add(new BSLVariable("y"))
-            .add(new BSLVariable("5"));
-    BSLDefinition bslDefinitionstruct = new BSLStruct(new BSLVariable("posn"), iLoVar2);
-    ILoDef bslDefs = new ConsLoDef(bslDefinitionZero, new MtLoDef()).add(bslFuncTru)
-            .add(bslFuncFals).add(bslDefinitionstruct);
+    ILoDef bslDefs = definitionMainHelper().add(new BSLConstant(new BSLVariable("Yahoo"), new BSLInt(0)));
     ILoExpr iLoExpr = new ConsLoExpr(new BSLInt(2), new MtLoExpr()).add(new BSLString("b"));
     BSLApplication bslApplicationTru = new BSLApplication("tru", iLoExpr);
     ILoExpr iLoExprMakePosn = new ConsLoExpr(new BSLString("x"), new MtLoExpr()).add(new BSLString("y"));
     BSLApplication bslApplicationMakePosn = new BSLApplication("make-posn", iLoExprMakePosn);
     ILoExpr iLoExprPosnx = new ConsLoExpr(bslApplicationMakePosn, new MtLoExpr());
-    BSLApplication bslApplicationPosnx = new BSLApplication("posn-xy", iLoExprPosnx);
-    ILoExpr iLoExprfals = new ConsLoExpr(bslApplicationPosnx, new MtLoExpr());
+    BSLApplication bslApplicationPosnxy = new BSLApplication("posn-xy", iLoExprPosnx);
+    ILoExpr iLoExprfals = new ConsLoExpr(bslApplicationPosnxy, new MtLoExpr());
     BSLApplication bslApplicationfals = new BSLApplication("fals", iLoExprfals);
     ILoExpr bslExprs = new ConsLoExpr(bslApplicationTru, new MtLoExpr()).add(bslApplicationfals);
     return new Program(bslDefs, bslExprs);
   }
 
   /**
-   * Extra helper method to create new type variables having extra BSLFunction variable.
+   * Extra helper method to create new type variables having extra BSLFunction variable and
+   * BSLStruct.
    *
    * @return an object of type problem havin a list of definitions and a list of expressions.
    */
   private Program helperToCreateExamplesBSL3() {
-    BSLDefinition bslDefinitionZero = new BSLConstant(new BSLVariable("Zero"), new BSLInt(0));
     ILoVar iLoVar = new ConsLoVar(new BSLVariable("a"), new MtLoVar()).add(new BSLVariable("b"));
-    BSLFunc bslFuncTru = new BSLFunction(new BSLVariable("tru"), iLoVar, new BSLString("a"));
-    BSLFunc bslFuncFals = new BSLFunction(new BSLVariable("fals"), iLoVar, new BSLString("b"));
     BSLFunc bslFuncAlpha = new BSLFunction(new BSLVariable("alpha"), iLoVar, new BSLString("a" + "b"));
     BSLFunc bslFuncBeta = new BSLFunction(new BSLVariable("beta"), iLoVar, new BSLString("b" + "a"));
     ILoVar iLoVar2 = new ConsLoVar(new BSLVariable("x"), new MtLoVar()).add(new BSLVariable("y"))
             .add(new BSLVariable("5"));
-    BSLDefinition bslDefinitionstruct = new BSLStruct(new BSLVariable("posn"), iLoVar2);
-    ILoDef bslDefs = new ConsLoDef(bslDefinitionZero, new MtLoDef()).add(bslFuncTru)
-            .add(bslFuncFals).add(bslDefinitionstruct).add(bslFuncAlpha).add(bslFuncBeta);
+    BSLDefinition bslDefinitionStruct = new BSLStruct(new BSLVariable("posn"), iLoVar2);
+    ILoDef bslDefs = definitionMainHelper().add(bslDefinitionStruct).add(bslFuncAlpha).add(bslFuncBeta);
     ILoExpr iLoExpr = new ConsLoExpr(new BSLInt(2), new MtLoExpr()).add(new BSLString("b"));
     BSLApplication bslApplicationTru = new BSLApplication("alpha", iLoExpr);
     ILoExpr bslExprs = new ConsLoExpr(bslApplicationTru, new MtLoExpr());
